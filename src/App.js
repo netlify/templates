@@ -10,7 +10,7 @@ const App = () => {
       <div className="App-header">
         <h1>Template Picker</h1>
         <p>
-          Start blog doesn't have to be hard, here some examples to get you started.
+          Starting a site doesn't have to be hard, here some examples to get you started.
         </p>
         <a href="https://github.com/netlify/staticgen">
           <img
