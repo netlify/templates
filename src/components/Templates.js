@@ -12,6 +12,7 @@ const Templates = () => {
         (t) => <Card
           name={t.name}
           repo={t.repoUrl}
+          previewUrl={t.previewUrl}
           image={t.previewImageUrl}
           type={t.type}
         />)}
