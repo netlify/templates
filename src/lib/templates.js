@@ -16,6 +16,13 @@ const templates = [
     previewImageUrl: "https://s3-us-west-1.amazonaws.com/publis-brian-images/nix.png",
   },
   {
+    name: "Hyde",
+    type: "CMS",
+    repoUrl: "https://github.com/bdougie/hyde-cms-theme",
+    previewUrl: "http://hyde.netlify.com/",
+    previewImageUrl: "https://s3-us-west-1.amazonaws.com/publis-brian-images/hyde.png",
+  },
+  {
     name: "Gatsby",
     type: "blog",
     repoUrl: "https://github.com/gatsbyjs/gatsby-starter-blog",
