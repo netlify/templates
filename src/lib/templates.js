@@ -9,6 +9,13 @@ const templates = [
     previewImageUrl: "https://s3-us-west-1.amazonaws.com/publis-brian-images/casper-theme.png",
   },
   {
+    name: "Nix",
+    type: "CMS",
+    repoUrl: "https://github.com/bdougie/nix-cms-template",
+    previewUrl: "http://nix.netlify.com/",
+    previewImageUrl: "https://s3-us-west-1.amazonaws.com/publis-brian-images/nix.png",
+  },
+  {
     name: "Gatsby",
     type: "blog",
     repoUrl: "https://github.com/gatsbyjs/gatsby-starter-blog",
