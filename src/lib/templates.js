@@ -30,13 +30,6 @@ const templates = [
     previewImageUrl: gatsbyBlog,
   },
   {
-    name: "Jeklyll",
-    type: "portfolio",
-    repoUrl: "https://github.com/rohanchandra/type-theme",
-    previewUrl: "https://rohanchandra.github.io/project/type/",
-    previewImageUrl: "https://cloud.githubusercontent.com/assets/816965/5142407/19742e48-71d6-11e4-8d9d-fdfe010784f0.png",
-  },
-  {
     name: "Strata",
     type: "CMS",
     repoUrl: "https://github.com/bdougie/strata-cms-template",
