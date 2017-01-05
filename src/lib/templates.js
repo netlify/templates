@@ -22,13 +22,14 @@ const templates = [
     previewUrl: "http://hyde.netlify.com/",
     previewImageUrl: "https://s3-us-west-1.amazonaws.com/publis-brian-images/hyde.png",
   },
-  {
-    name: "Gatsby",
-    type: "blog",
-    repoUrl: "https://github.com/gatsbyjs/gatsby-starter-blog",
-    previewUrl: "http://gatsbyjs.github.io/gatsby-starter-blog/",
-    previewImageUrl: gatsbyBlog,
-  },
+// TODO: Add CMS to a Gatsby example 
+//   {
+//     name: "Gatsby",
+//     type: "blog",
+//     repoUrl: "https://github.com/gatsbyjs/gatsby-starter-blog",
+//     previewUrl: "http://gatsbyjs.github.io/gatsby-starter-blog/",
+//     previewImageUrl: gatsbyBlog,
+//   },
   {
     name: "Strata",
     type: "CMS",
