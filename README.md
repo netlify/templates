@@ -1,4 +1,4 @@
-# The Template Showroom
+# The Netlify CMS Template Showroom
 
 This is a board of some popular templates for static site generators and
 boilerplates.
