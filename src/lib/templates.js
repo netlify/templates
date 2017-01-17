@@ -11,7 +11,7 @@ const templates = [
   {
     name: "Nix",
     type: "CMS",
-    repoUrl: "https://github.com/bdougie/nix-cms-template",
+    repoUrl: "https://github.com/bdougie/nix-cms-theme",
     previewUrl: "http://nix.netlify.com/",
     previewImageUrl: "https://s3-us-west-1.amazonaws.com/publis-brian-images/nix.png",
   },
