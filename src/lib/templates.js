@@ -1,4 +1,4 @@
-import gatsbyBlog from "../images/gatsby-blog.png";
+// import gatsbyBlog from "../images/gatsby-blog.png";
 
 const templates = [
   {
