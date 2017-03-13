@@ -1,5 +1,11 @@
 const templates = [
   {
+    name: "Kaldi",
+    type: "CMS",
+    repoUrl: "https://github.com/netlify-templates/kaldi-hugo-cms-template",
+    previewUrl: "https://kaldi-template.netlify.com/",
+    previewImageUrl: "https://s3-us-west-1.amazonaws.com/publis-brian-images/kaldi"
+  {
     name: "Casper",
     type: "CMS",
     repoUrl: "https://github.com/bdougie/casper-cms-template",
