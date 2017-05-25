@@ -11,7 +11,7 @@ const templates = [
     type: "Restaurant",
     repoUrl: "https://github.com/bdougie/hugo-restaurant-template",
     previewUrl: "https://kaldi-template.netlify.com/",
-    previewImageUrl: "https://s3-us-west-1.amazonaws.com/publis-brian-images/kaldi",
+    previewImageUrl: "https://s3-us-west-1.amazonaws.com/publis-brian-images/restaurant",
   },
   {
     name: "Casper",
