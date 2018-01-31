@@ -13,7 +13,8 @@ const Card = ({ image, repo, name, previewUrl, type }) => {
         alt="site-preview"
       /></a>
       <h3 className="card-header"><a className="action action-text-productive" href={repo}>{name}</a> {type} template</h3>
-      <a className="btn btn-default" href={`https://app.netlify.com/start/deploy?repository= ${ repo }`}>Deploy to Netlify</a>
+      {/* temporily appending cms/identity link - &stack=cms */} 
+      <a className="btn btn-default" href={`https://app.netlify.com/start/deploy?repository= ${ repo }&stack=cms`}>Deploy to Netlify</a>
     </div>
   );
 };
