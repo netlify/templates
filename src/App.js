@@ -10,7 +10,7 @@ const App = () => {
       <div className="App-header">
         <h1>Template Picker</h1>
         <p>
-          Starting a site doesn't have to be hard, here are some examples to get you started. Add a new templates via <a href="https://github.com/bdougie/cms-templates">GitHub</a>
+          Starting a site doesn't have to be hard, here are some examples to get you started. Add a new template via <a href="https://github.com/bdougie/cms-templates">GitHub</a>
         </p>
       </div>
       <Templates />
