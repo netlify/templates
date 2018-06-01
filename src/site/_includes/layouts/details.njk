@@ -7,7 +7,7 @@ templateEngineOverride: njk, md
   <h2>{{ page.title }}</h2>
   <ul class="meta tags">
   {%- for tag in tags -%}
-    <li><a href="/tags/{{tag}}">{{tag}}</a></li>
+    <li><a href="/tags#{{tag}}">{{tag}}</a></li>
   {% endfor -%}
   </ul>
   <p>
