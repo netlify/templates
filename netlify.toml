@@ -1,12 +1,7 @@
 [build]
   command = "yarn run build"
   publish = "dist"
-  NODE_ENV = "8.9.0"
-
-[context.branch-deploy]
-  command = "yarn run build"
-  publish = "dist"
-  NODE_ENV = "8.9.0"
+  NODE_VERSION = "8.9.0"
 
 
 # Look after the old use of journal in urls
