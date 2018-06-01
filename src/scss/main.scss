@@ -2,35 +2,27 @@
 @import '_mixins';
 
 
-::-moz-selection {
-  background-color: $accent-color;
-  color: #000;
-}
-::selection {
-  background-color: $accent-color;
-  color: #000;
-}
-
 * {
   margin: 0;
   padding: 0;
 }
 
 html {
-  background-color: $accent-color;
+  background-color: $page-color;
 }
 
 body {
   text-align: center;
-  font-family: 'Source Serif Pro', serif;
+  font-family: Roboto,-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
   font-weight: 300;
-  font-size: 12px;
+  font-size: 14px;
+  line-height: 1.5;
   background-color: $page-color;
   color: $text-color;
-  line-height: 1.5;
-  border-top: solid 3px $accent-color;
+  text-align: center;
+
   @include bp(narrow) {
-    font-size: 14px;
+    font-size: 15px;
     line-height: 1.6;
   }
   @include bp(mid) {
@@ -43,23 +35,112 @@ body {
   }
 }
 
+/*
+  Headings
+*/
+h1, h2, h3 {
+  line-height: 1.2;
+  margin-top: 1em;
+  margin-bottom: 0.4em;
+  color: $bold-color;
+  font-weight: 600;
+}
 
+h1 { font-size: 2em; }
+h2 { font-size: 1.6em; }
+h3 { font-size: 1.2em; }
+
+
+/*
+  typography basics
+*/
+p {
+  padding-top: 0;
+  padding-bottom: 1em;
+}
+
+
+ul.listing {
+  list-style: none;
+}
+
+.template-summary {
+   ul {
+     list-style: none;
+     li {
+       display: inline;
+     }
+   }
+}
+
+
+/*
+  Links
+*/
 a {
   text-decoration: none;
-
   &:link,
   &:visited {
-    color: mix($text-color, $page-color, 90%);
+    color: mix($bold-color, $page-color, 80%);
+    border-bottom-color: mix($accent-color, $page-color, 30%);
     border-bottom-style: solid;
     border-bottom-width: 1px;
   }
   &:hover,
   &:focus {
-    color: #fff;
+    color: $bold-color;
     border-bottom-color: $accent-color;
   }
 }
 
+
+
+/*
+  Layout
+*/
+
+.container {
+  width:90%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  @include bp(narrow) {
+    width:80%;
+  }
+  @include bp(mid) {
+    width:700px;
+  }
+  @include bp(wide) {
+    width:800px;
+  }
+}
+
+header {
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-bottom-color: mix($text-color, $page-color, 50%);
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+}
+footer {
+  border-top-style: solid;
+  border-top-width: 1px;
+  border-top-color: mix($text-color, $page-color, 50%);
+  margin-top: 2em;
+  padding-top: 2em;
+}
+
+
+
+/*
+  Navigation
+*/
+ul.nav {
+  list-style: none;
+  li {
+    display: inline;
+  }
+}
 
 
 

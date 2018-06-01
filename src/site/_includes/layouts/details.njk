@@ -1,0 +1,20 @@
+---
+layout: layouts/base.njk
+pageClass: details
+templateEngineOverride: njk, md
+---
+<div class="template-summary">
+  <h2>{{ page.title }}</h2>
+  <ul class="meta tags">
+  {%- for tag in tags -%}
+    <li><a href="/tags/{{tag}}">{{tag}}</a></li>
+  {% endfor -%}
+  </ul>
+  <p>
+    Repo: <a href="{{ repo }}" target="_BLANK" rel="noopener">{{ repo }}</a>
+  </p>
+</div>
+<main>
+  <h2>Description</h3>
+  {{ content | safe }}
+</main>

@@ -7,12 +7,10 @@ module.exports = function(config) {
   config.addFilter("squash", require("./filters/squash.js") );
 
   // Group posts and links into collections without leaning on tags
-  config.addCollection("links", function(collection) {
-    return collection.getFilteredByGlob("src/site/links/*.md").reverse();
+  config.addCollection("templates", function(collection) {
+    return collection.getFilteredByGlob("src/site/template/*.md").reverse();
   });
-  config.addCollection("blogposts", function(collection) {
-    return collection.getFilteredByGlob("src/site/blog/*.md").reverse();
-  });
+
 
   return {
     dir: {

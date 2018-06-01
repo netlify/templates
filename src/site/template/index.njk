@@ -1,0 +1,20 @@
+---
+title: Project tempaltes
+description: A full list of useful starter project templates
+---
+
+<div class="title-section">
+  <h1>Templates</h1>
+  <p>
+    Full listing
+  </p>
+</div>
+<ul class="listing">
+{%- for page in collections.templates -%}
+  <li>
+  {% set item = page %}
+  {% include "summary.njk" %}
+  </li>
+{%- endfor -%}
+</ul>
+

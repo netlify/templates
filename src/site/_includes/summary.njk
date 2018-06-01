@@ -1,0 +1,8 @@
+<div class="template-summary">
+  <h3><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
+  <ul class="meta tags">
+  {%- for tag in item.data.tags -%}
+    <li><a href="/tags/{{tag}}">{{tag}}</a></li>
+  {% endfor -%}
+  </ul>
+</div>

@@ -9,7 +9,10 @@
   <body class="{{ pageClass }}" >
     <header>
       <div class="container">
+      {% block header %}
+      <h1>JAMstack project templates</h1>
       {% include "navigation.njk" %}
+      {% endblock %}
       </div>
     </header>
     {# <div class="search-panel">
@@ -18,13 +21,9 @@
       </div>
     </div> #}
     <div class="container">
+      <h2>{{ title }}</h2>
       {{ content | safe }}
     </div>
-    {# <div class="search-panel">
-      <div class="container">
-        <input type="search" />
-      </div>
-    </div> #}
     <footer>
       {% include "footer.njk" %}
     </footer>
