@@ -1,5 +1,7 @@
 [build]
   command = "yarn run build"
+  publish = "dist"
+  NODE_ENV = "8.9.0"
 
 # Look after the old use of journal in urls
 [[redirects]]
