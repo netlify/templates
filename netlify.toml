@@ -3,8 +3,12 @@
   publish = "dist"
   NODE_VERSION = "8.9.0"
 
+[context.branch-deploy]
+  command = "yarn run build"
+  publish = "dist"
+  NODE_VERSION = "8.9.0"
 
-# Look after the old use of journal in urls
+# arrange tag listings on one page, but look after people who hack the URL
 [[redirects]]
   from = "/tag/*"
   to = "/tags/#:splat"
