@@ -16,5 +16,12 @@ templateEngineOverride: njk, md
 </div>
 <main>
   <h2>Description</h3>
+  <div class="description">
   {{ content | safe }}
+  </div>
+  <a href="https://app.netlify.com/start/deploy?repository={{repo}}">
+    <img src="https://www.netlify.com/img/deploy/button.svg" title="Deploy to Netlify">
+  </a>
+  <a class="hint" href="/on-click-deploy">what does this button do?</a>
+
 </main>

@@ -5,8 +5,19 @@
 [build.environment]
   NODE_VERSION = "8.9.0"
 
-# arrange tag listings on one page, but look after people who hack the URL
+# arrange tag listings on one page,
+# but look after people who hack the URL
 [[redirects]]
   from = "/tag/*"
   to = "/tags/#:splat"
   status = 302
+
+# The templates listing is the home page
+[[redirects]]
+  from = "/template"
+  to = "/"
+  status = 301
+[[redirects]]
+  from = "/templates"
+  to = "/"
+  status = 301
