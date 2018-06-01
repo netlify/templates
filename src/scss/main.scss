@@ -1,0 +1,65 @@
+@import '_variables';
+@import '_mixins';
+
+
+::-moz-selection {
+  background-color: $accent-color;
+  color: #000;
+}
+::selection {
+  background-color: $accent-color;
+  color: #000;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: $accent-color;
+}
+
+body {
+  text-align: center;
+  font-family: 'Source Serif Pro', serif;
+  font-weight: 300;
+  font-size: 12px;
+  background-color: $page-color;
+  color: $text-color;
+  line-height: 1.5;
+  border-top: solid 3px $accent-color;
+  @include bp(narrow) {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  @include bp(mid) {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  @include bp(wide) {
+    font-size: 18px;
+    line-height: 1.8;
+  }
+}
+
+
+a {
+  text-decoration: none;
+
+  &:link,
+  &:visited {
+    color: mix($text-color, $page-color, 90%);
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+  }
+  &:hover,
+  &:focus {
+    color: #fff;
+    border-bottom-color: $accent-color;
+  }
+}
+
+
+
+
