@@ -21,9 +21,6 @@
   },
   "scripts": {
     "start": "gulp build:local && gulp serve & gulp watch",
-    "build": "gulp build",
-    "refresh": "gulp get:data",
-    "events": "gulp get:events",
-    "build:local": "gulp build:local"
+    "build": "gulp build"
   }
 }
