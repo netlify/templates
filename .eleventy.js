@@ -2,6 +2,7 @@ module.exports = function(config) {
 
   // Add filters to Nunjucks
   config.addFilter("squash", require("./filters/squash.js") );
+  config.addFilter("appendToName", require("./filters/fileNameAppend.js") );
 
   // Group posts and links into collections without leaning on tags
   config.addCollection("templates", function(collection) {

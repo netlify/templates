@@ -7,5 +7,6 @@ var gulp    = require('gulp');
 gulp.task("watch", function () {
   gulp.watch(project.buildSrc + "/js/**/*", ["scripts"]);
   gulp.watch(project.buildSrc + "/scss/**/*", ["styles"]);
+  gulp.watch(project.buildSrc + "/images/**/*", ["images"]);
   gulp.watch(project.buildSrc + "/site/**/*", ["generate"]);
 });

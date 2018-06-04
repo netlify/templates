@@ -1,6 +1,7 @@
 ---
 title: Casper starter blog
 repo: https://github.com/bdougie/casper-cms-template
+preview: casper-cms-template.jpeg
 tags:
   - hugo
   - blog
