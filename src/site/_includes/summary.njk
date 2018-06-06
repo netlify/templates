@@ -1,9 +1,9 @@
 <div class="template-summary">
   <h3><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
-  <img class="thumbnail" src="/images/previews/{{ item.data.preview | appendToName('-100') }}" alt="Screenshot of a page created with {{ item.data.title }}" />
   <ul class="meta tags">
-  {%- for tag in item.data.tags -%}
-    <li><a href="/tags#{{tag}}">{{tag}}</a></li>
-  {% endfor -%}
+    {%- for tag in item.data.tags -%}
+    <li class="tag"><a href="/tags#{{tag}}">{{tag}}</a></li>
+    {% endfor -%}
   </ul>
+  <img class="thumbnail" src="/images/previews/{{ item.data.preview | appendToName('-200') }}" alt="Screenshot of a page created with {{ item.data.title }}" />
 </div>

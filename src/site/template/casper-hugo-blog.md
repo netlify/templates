@@ -6,7 +6,7 @@ example: http://casper-theme.netlify.com/
 tags:
   - hugo
   - blog
-  - netlifyCMS
+  - NetlifyCMS
 ---
 
 A Hugo boilerplate for creating truly epic websites
