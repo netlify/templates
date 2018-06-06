@@ -65,6 +65,7 @@ Use these conventions in your new template description page:
 title: Descriptive title for display
 repo: URL of git repository for this template
 preview: {filename for preview image}
+example: {URL of an example site}
 tags:
   - react
   - gatsby

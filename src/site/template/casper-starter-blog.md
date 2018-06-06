@@ -1,7 +1,8 @@
 ---
-title: Casper starter blog
+title: Casper - A Hugo starter blog
 repo: https://github.com/bdougie/casper-cms-template
 preview: casper-cms-template.jpeg
+example: http://casper-theme.netlify.com/
 tags:
   - hugo
   - blog

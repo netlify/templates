@@ -5,24 +5,24 @@ templateEngineOverride: njk, md
 ---
 <div class="template-summary">
   <h2>{{ page.title }}</h2>
-  <img src="/images/previews/{{ preview | appendToName('-1000') }}" alt="Screenshot of a page created with {{ item.data.title }}" />
   <ul class="meta tags">
   {%- for tag in tags -%}
     <li><a href="/tags#{{tag}}">{{tag}}</a></li>
   {% endfor -%}
   </ul>
-  <p>
-    Repo: <a href="{{ repo }}" target="_BLANK" rel="noopener">{{ repo }}</a>
-  </p>
+  <img src="/images/previews/{{ preview | appendToName('-1000') }}" alt="Screenshot of a page created with {{ item.data.title }}" />
+  <ul class="meta">
+    <li class="link-example">Example: <a href="{{ example }}" target="_BLANK" rel="noopener">{{ example }}</a></li>
+    <li class="link-repo">Repo: <a href="{{ repo }}" target="_BLANK" rel="noopener">{{ repo }}</a></li>
+  </ul>
 </div>
 <main>
-  <h2>Description</h3>
+  <h3>About this template</h3>
   <div class="description">
   {{ content | safe }}
-  </div>
   <a href="https://app.netlify.com/start/deploy?repository={{repo}}">
     <img src="/images/deploy-button.svg" title="Deploy to Netlify">
   </a>
-  <a class="hint" href="/on-click-deploy">what does this button do?</a>
-
+  <br/><a class="hint" href="/on-click-deploy">what does this button do?</a>
+  </div>
 </main>

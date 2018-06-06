@@ -64,15 +64,10 @@ ul.listing {
 }
 
 .template-summary {
-   ul {
-     list-style: none;
-     li {
-       display: inline;
-     }
-   }
-
    img {
      width: 100%;
+     margin-top: 0.5em;
+     margin-bottom: 1em;
    }
 }
 
@@ -81,6 +76,33 @@ ul.listing {
   font-style: italic;
   vertical-align: middle;
 }
+
+ul.meta {
+  list-style: none;
+  margin-top:0.5em;
+  margin-bottom:1em;
+  font-size: 0.8em;
+
+  li {
+    display: inline;
+  }
+
+  .link-repo,
+  .link-example {
+    display: block;
+    background-position: 0 0.1em;
+    background-repeat: no-repeat;
+    background-size: 1.4em;
+    padding-left: 1.6em;
+  }
+  .link-example {
+    background-image: url('/images/icon-browser.svg');
+  }
+  .link-repo {
+    background-image: url('/images/icon-git.svg');
+  }
+}
+
 
 
 /*
@@ -139,6 +161,9 @@ footer {
   padding-top: 2em;
 }
 
+img.thumbnail {
+  width: 100px;
+}
 
 
 /*
