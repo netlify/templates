@@ -1,12 +1,18 @@
 ---
-title: Look at all these templates
+title: Get started with a template
 layout: layouts/base.njk
 pageClass: home
 description: A collection of project starter templates for a variety of static site generators with one-click deployments to Netlify.
 ---
 
+<p>
+  Deploy a template site to Netlify with just one click. The site’s code will automatically populate as a new folder in your Git repository so you can explore, edit, and update so it works for you. It’s free.
+</p>
 
-<p>A set of starter templates ready for you to install and use with a single click</p>
+<h2>What happens when you Deploy to Netlify?</h2>
+<p>
+  Once you click the Deploy to Netlify button you’ll be dropped into a simple signup workflow. Connect your Git repository and hit save, and Netlify will deploy the site to a global content delivery network. You’ll receive a link to your live site’s URL.
+</p>
 
 <ul class="listing">
 {%- for page in collections.templates -%}
