@@ -113,8 +113,8 @@ ul.listing {
     margin-bottom: 1em;
   }
 
-
 }
+
 
 ul.meta {
   list-style: none;
@@ -226,7 +226,11 @@ a.cta-image {
   @include bp(wide) {
     width:800px;
   }
+}
 
+.content {
+  margin-top:3em;
+  margin-bottom:4em;
 }
 
 main {
