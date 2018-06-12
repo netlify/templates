@@ -69,11 +69,10 @@ ul.listing {
   margin-bottom: 3em;
   padding-top: 1em;
   padding-bottom: 1em;
-  border-top: 1px solid mix(#fff, #0e1e25, 90%);
   li.item-template {
     margin-bottom: 3em;
     padding-bottom: 2em;
-    border-bottom: 1px solid mix(#fff, #0e1e25, 90%);
+    border-top: 1px solid mix(#fff, #0e1e25, 90%);
   }
 }
 
@@ -270,12 +269,36 @@ header {
 }
 
 footer {
-  // border-top-style: solid;
-  // border-top-width: 1px;
-  // border-top-color: mix($text-color, $page-color, 50%);
-  margin-top: 2em;
-  padding-top: 2em;
-  margin-bottom: 2em;
+  background-color: $feint-color;
+
+  .container {
+    text-align: center;
+    padding-top: 6em;
+    padding-bottom: 6em;
+  }
+
+  .navigation {
+    list-style: none;
+    li {
+      display: inline;
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+    }
+
+    a {
+      &:link,
+      &:visited {
+        color: mix(#fff, #0e1e25, 60%);
+        border-bottom-style: none;
+      }
+      &:hover,
+      &:focus {
+        color: mix(#fff, #0e1e25, 40%);
+        border-bottom-style: none;
+      }
+    }
+  }
+
 }
 
 img.thumbnail {
