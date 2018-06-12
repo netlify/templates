@@ -30,7 +30,7 @@ body {
     line-height: 1.6;
   }
   @include bp(wide) {
-    font-size: 18px;
+    font-size: 17px;
     line-height: 1.8;
   }
 }
@@ -65,24 +65,33 @@ p {
 
 ul.listing {
   list-style: none;
-
-  margin-top: 3em;
+  margin-top: 2em;
   margin-bottom: 3em;
   padding-top: 1em;
   padding-bottom: 1em;
-  padding-left: 2em;
-  padding-right: 2em;
-  background: #fff;
-  color: rgba(14,30,37,.54);
-  border-radius: 8px;
-  -webkit-box-shadow: 0 1px 6px 0 rgba(14,30,37,.12);
-  box-shadow: 0 1px 6px 0 rgba(14,30,37,.12);
+  border-top: 1px solid mix(#fff, #0e1e25, 90%);
   li.item-template {
+    margin-bottom: 3em;
+    padding-bottom: 2em;
+    border-bottom: 1px solid mix(#fff, #0e1e25, 90%);
   }
-
 }
 
 .template-summary {
+
+  div.box {
+    display: flex;
+    margin-top: 2em;
+    margin-bottom: 3em;
+  }
+
+  div.left {
+    padding-top: 4.5em;
+  }
+  div.right {
+    margin-left: 2em;
+  }
+
    img.preview {
      width: 100%;
      margin-top: 0.5em;
@@ -90,6 +99,12 @@ ul.listing {
      -webkit-box-shadow: 0 1px 6px 0 rgba(14,30,37,.12);
      box-shadow: 0 1px 6px 0 rgba(14,30,37,.12);
    }
+
+   .cta-title h3 {
+     padding-bottom: 1em;
+   }
+
+
 }
 
 ul.meta {
@@ -215,8 +230,8 @@ header {
   padding-bottom: 4em;
   overflow: hidden;
   position: relative;
-  background: #0e1e25; /* Old browsers */
-  background: linear-gradient(to bottom, #0e1e25 20%,#2d3b41 90%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  background: #0e1e25;
+  background: linear-gradient(to bottom, #0e1e25 20%,#2d3b41 90%);
   color: mix(#fff,#0e1e25, 80%);
   text-shadow: 0 2px 20px rgba(0,0,0,.16);
 
