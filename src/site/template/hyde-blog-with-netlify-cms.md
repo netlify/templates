@@ -6,7 +6,7 @@ example: http://hyde.netlify.com/
 tags:
   - hyde
   - blog
-  - netlifyCMS
+  - NetlifyCMS
 ---
 
 A Hyde boilerplate for creating a blog site with Netlify CMS.

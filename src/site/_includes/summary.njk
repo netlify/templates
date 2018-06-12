@@ -1,9 +1,17 @@
 <div class="template-summary">
-  <h3><a href="{{ item.url }}">{{ item.data.title }}</a></h3>
+  <h3>{{ item.data.title }}</h3>
   <ul class="meta tags">
     {%- for tag in item.data.tags -%}
-    <li class="tag"><a href="/tags#{{tag}}">{{tag}}</a></li>
+    <li class="tag"><a href="/tags/{{tag}}">{{tag}}</a></li>
     {% endfor -%}
   </ul>
   <img class="thumbnail" src="/images/previews/{{ item.data.preview | appendToName('-200') }}" alt="Screenshot of a page created with {{ item.data.title }}" />
+  <div>
+    <a class="cta-link" href="{{ item.url }}">More about this template</a>
+  </div>
+  <div>
+    <a class="btn-dtn" href="https://app.netlify.com/start/deploy?repository={{item.repo}}">
+      <img src="/images/deploy-button.svg" title="Deploy to Netlify">
+    </a>
+  </div>
 </div>

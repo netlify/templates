@@ -1,0 +1,22 @@
+---
+pagination:
+  data: metadata.pageTags
+  size: 1
+  alias: tag
+permalink: /tags/{{ tag }}/
+layout: layouts/base.njk
+---
+
+<h2>Project templates tagged "{{ tag }}"</h2>
+
+<a href="/tags">See all of the tags</a>
+
+<ul class="listing">
+{% set postslist = collections[tag] %}
+{% for post in postslist %}
+  <li class="item-template">
+  {% set item = post %}
+  {% include "summary.njk" %}
+  </li>
+{% endfor %}
+</ul>
