@@ -10,24 +10,6 @@ module.exports = function(config) {
     return collection.getFilteredByGlob("src/site/template/*.md");
   });
 
-  // config.addCollection("tags", function(collection) {
-  //   var items = collection.getAll();
-  //   var allTags = [];
-  //   items.forEach(function(item) {
-  //     if(item.data.tags) {
-  //       allTags.push(item.data.tags);
-  //     }
-  //   });
-  //   // combine all the tags
-  //   var tagList = [].concat(...allTags);
-
-  //   // dedupe the taglist
-  //   var tags = [ ...new Set(tagList) ];
-  //   console.log('tags :', ["foo", "bar"]);
-  //   return ["foo", "bar"];
-  // });
-
-
   return {
     dir: {
       input: "src/site",

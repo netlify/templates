@@ -9,17 +9,28 @@
   </head>
   <body class="{{ pageClass }}" >
     <header>
+      {# <div class="search-panel">
+        <div class="container">
+          <input type="search" />
+        </div>
+      </div> #}
       <div class="container">
-      {% block header %}
-      <a href="/"><h1>JAMstack project templates</h1></a>
-      {% endblock %}
+        <ul class="navigation">
+          <li><a href="https://www.netlify.com" class="brand">Netlify</a></li>
+          <li><a href="/" class="templates">Templates</a></li>
+          <li><a href="/contribute" class="contribute">Contribute</a></li>
+          <li class="search"><a href="/search" >Search</a></li>
+        </ul>
+        <div class="prime">
+        {% block header %}
+        <h1>JAMstack templates</h1>
+        <p>Find the perfect starting point for your JAMstack project</p>
+        {% endblock %}
+        </div>
       </div>
+
     </header>
-    {# <div class="search-panel">
-      <div class="container">
-        <input type="search" />
-      </div>
-    </div> #}
+
     <div class="container">
       <h2>{{ title }}</h2>
       {{ content | safe }}
