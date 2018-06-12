@@ -7,9 +7,7 @@
       </a>
     </div>
     <div class="right">
-      <a class="cta-title" href="{{ item.url }}">
-        <h3>{{ item.data.title }}</h3>
-      </a>
+      <h3><a class="cta-title" href="{{ item.url }}">{{ item.data.title }}</a></h3>
       <ul class="meta tags">
         {%- for tag in item.data.tags -%}
         <li class="tag"><a href="/tags/{{tag}}">{{tag}}</a></li>
