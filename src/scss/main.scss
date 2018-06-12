@@ -265,6 +265,20 @@ header {
     text-align: center;
   }
 
+  .logo {
+    display: inline-block;
+    background-size: 120px;
+    width: 120px;
+    height: 50px;
+    margin-right: 2em;
+    background-image: url('/images/logo.png');
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    text-indent: -999px;
+    overflow: hidden;
+    vertical-align: middle;
+  }
+
 
 }
 
