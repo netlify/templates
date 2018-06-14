@@ -8,4 +8,4 @@ tags:
   - blog
 ---
 
-This project template includes a simple home page and build pipeline using [Eleventy](https://11ty.io), [Gulp](https://gulpjs.com) and Netlify's serverless function helper: [Netlify Lambda](https://www.npmjs.com/package/netlify-lambda)
+This project template includes a simple blog structure using [Eleventy](https://11ty.io), It demonstrates how to collect pages into blog posts and provide a tagging structure.

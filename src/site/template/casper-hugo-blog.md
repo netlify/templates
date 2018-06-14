@@ -7,10 +7,12 @@ tags:
   - hugo
   - blog
   - NetlifyCMS
+  - postCSS
+  - gulp
+  - webpack
+  - babel
 ---
 
-A Hugo boilerplate for creating truly epic websites
+A Hugo boilerplate for creating a blog site backed with [NetlifyCMS](https://www.netlifycms.org) for content authoring.
 
-This is a boilerplate for using Hugo as a static site generator and Gulp + Weback as your asset pipeline.
-
-It's setup to use post-css and babel for CSS and JavaScript.
+It has an asset pipeline using Gulp and Webpack for processing JavaScript with Babel, and CSS with PostCSS.

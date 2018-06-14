@@ -7,6 +7,7 @@ tags:
   - hyde
   - blog
   - NetlifyCMS
+  - python
 ---
 
-A Hyde boilerplate for creating a blog site with Netlify CMS.
+A boilerplate for creating a blog site with Hyde (a static site generator written in Python) and with [Netlify CMS](https://www.netlifycms.org) for content authoring.
