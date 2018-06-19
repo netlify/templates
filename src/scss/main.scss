@@ -55,6 +55,8 @@ h1 {
 }
 
 
+
+
 /*
   typography basics
 */
@@ -90,7 +92,7 @@ ul.listing {
     padding-top: 2em;
     padding-left: 0em;
     @include bp(mid) {
-      padding-top: 6em;
+      padding-top: 5.4em;
       padding-left: 2em;
     }
   }
@@ -109,7 +111,8 @@ ul.listing {
      box-shadow: 0 1px 6px 0 rgba(14,30,37,.12);
    }
 
-  a.cta-title {
+  a.cta-title,
+  .template-title {
     margin-bottom: 1em;
   }
 
@@ -175,13 +178,41 @@ a {
   }
 }
 
+header a {
+  &:link,
+  &:visited {
+    color: #fff;
+    border-bottom-color: $accent-color;
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+  }
+  &:hover,
+  &:focus {
+    border-bottom-color: mix($accent-color, $page-color, 30%);
+  }
+
+}
+
+
+
 a.btn-dtn {
   display: inline-block;
   border-bottom-style: none;
-  margin-top:1em;
-  margin-bottom:1em;
+  vertical-align: top;
 }
 
+
+.dtn {
+  margin-top: 0.6em;
+  margin-bottom: 1.6em;
+
+  .hint {
+    font-size: 0.8em;
+    font-style: italic;
+    opacity: 0.5;
+    line-height: 2;
+  }
+}
 
 
 a.cta-image {

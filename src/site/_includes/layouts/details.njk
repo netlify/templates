@@ -4,12 +4,17 @@ pageClass: details
 templateEngineOverride: njk, md
 ---
 <div class="template-summary">
-  <h2>{{ page.title }}</h2>
   <ul class="meta tags">
   {%- for tag in tags -%}
     <li class="tag"><a href="/tags/{{tag}}">{{tag}}</a></li>
   {% endfor -%}
   </ul>
+  <div class="dtn">
+    <a class="btn-dtn" href="https://app.netlify.com/start/deploy?repository={{repo}}">
+      <img src="/images/deploy-button.svg" title="Deploy to Netlify">
+    </a>
+    <a href="#about-deploy-to-netlify" class="hint">what will this do?</a>
+  </div>
   <img class="preview" src="/images/previews/{{ preview | appendToName('-1000') }}" alt="Screenshot of a page created with {{ item.data.title }}" />
   <ul class="meta">
     <li class="link-example">Example: <a href="{{ example }}" target="_BLANK" rel="noopener">{{ example }}</a></li>
@@ -20,12 +25,12 @@ templateEngineOverride: njk, md
   <h3>About this template</h3>
   <div class="description">
   {{ content | safe }}
-  <a class="btn-dtn" href="https://app.netlify.com/start/deploy?repository={{repo}}">
-    <img src="/images/deploy-button.svg" title="Deploy to Netlify">
-  </a>
   </div>
-  <h3>What happens when you Deploy to Netlify?</h3>
+  <h3 id="about-deploy-to-netlify">What happens when you Deploy to Netlify?</h3>
   <p>
     Once you click the Deploy to Netlify button you’ll be dropped into a simple signup workflow. Connect your Git repository and hit save, and Netlify will deploy the site to a global content delivery network. You’ll receive a link to your live site’s URL.
   </p>
+    <a class="btn-dtn" href="https://app.netlify.com/start/deploy?repository={{repo}}">
+      <img src="/images/deploy-button.svg" title="Deploy to Netlify">
+    </a>
 </main>

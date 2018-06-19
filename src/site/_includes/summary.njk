@@ -13,14 +13,16 @@
         <li class="tag"><a href="/tags/{{tag}}">{{tag}}</a></li>
         {% endfor -%}
       </ul>
-      <div>
-        {{ item.templateContent | safe }}
-      </div>
-      <div>
+      <div class="dtn">
         <a class="btn-dtn" href="https://app.netlify.com/start/deploy?repository={{item.repo}}">
           <img src="/images/deploy-button.svg" title="Deploy to Netlify">
         </a>
+        <a href="#about-deploy-to-netlify" class="hint">what will this do?</a>
       </div>
+      <div>
+        {{ item.templateContent | safe }}
+      </div>
+
 
     </div>
 

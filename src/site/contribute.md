@@ -25,4 +25,4 @@ Each template gets a page of its own with a unique URL. For guidance on how to c
 
 ### 4. Make a pull request
 
-This site is generated using a static site generator called [Eleventy](https://11ty.io). Once you have added a page describing your template, create a pull request to [this site repo]((https://github.com/netlify/templates)).
+This site is generated using a static site generator called [Eleventy](https://11ty.io). Once you have added a page describing your template, create a pull request to ([this site repo](https://github.com/netlify/templates)).
