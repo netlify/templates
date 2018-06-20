@@ -1,6 +1,7 @@
 ---
 title: Kaldi - A Hugo starter blog
 repo: https://github.com/netlify-templates/kaldi-hugo-cms-template
+stack: cms
 preview: kaldi-hugo-template.jpg
 example: https://kaldi-template.netlify.com/
 tags:

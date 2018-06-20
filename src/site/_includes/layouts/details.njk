@@ -3,6 +3,12 @@ layout: layouts/base.njk
 pageClass: details
 templateEngineOverride: njk, md
 ---
+{# Build the correct parameters for the DTN button #}
+{% set dtn = "repository=" + repo  %}
+{% if stack %}
+{% set dtn = dtn + "&stack=" + stack %}
+{% endif %}
+
 <div class="template-summary">
   <ul class="meta tags">
   {%- for tag in tags -%}
@@ -10,7 +16,7 @@ templateEngineOverride: njk, md
   {% endfor -%}
   </ul>
   <div class="dtn">
-    <a class="btn-dtn" href="https://app.netlify.com/start/deploy?repository={{repo}}">
+    <a class="btn-dtn" href="https://app.netlify.com/start/deploy?{{dtn}}">
       <img src="/images/deploy-button.svg" title="Deploy to Netlify">
     </a>
     <a href="#about-deploy-to-netlify" class="hint">what will this do?</a>
@@ -30,7 +36,7 @@ templateEngineOverride: njk, md
   <p>
     Once you click the Deploy to Netlify button you’ll be dropped into a simple signup workflow. Connect your Git repository and hit save, and Netlify will deploy the site to a global content delivery network. You’ll receive a link to your live site’s URL.
   </p>
-    <a class="btn-dtn" href="https://app.netlify.com/start/deploy?repository={{repo}}">
+    <a class="btn-dtn" href="https://app.netlify.com/start/deploy?{{dtn}}">
       <img src="/images/deploy-button.svg" title="Deploy to Netlify">
     </a>
 </main>
