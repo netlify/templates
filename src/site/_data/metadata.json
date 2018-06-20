@@ -1,12 +1,17 @@
 {
   "pageTags" : [
+    "babel",
     "blog",
     "eleventy",
     "gatsby",
+    "gulp",
+    "graphQL",
     "hugo",
     "hyde",
-    "NetlifyCMS",
+    "netlifyCMS",
+    "postCSS",
     "react",
-    "serverless"
+    "serverless",
+    "webpack"
   ]
 }

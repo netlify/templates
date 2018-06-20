@@ -7,9 +7,8 @@ permalink: /tags/{{ tag }}/
 layout: layouts/base.njk
 ---
 
-<h2>Project templates tagged "{{ tag }}"</h2>
+<h2>/ <a href="/tags">tags</a> / {{ tag }} </h2>
 
-<a href="/tags">See all of the tags</a>
 
 <ul class="listing">
 {% set postslist = collections[tag] %}
