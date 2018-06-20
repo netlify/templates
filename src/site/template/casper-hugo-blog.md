@@ -16,4 +16,4 @@ tags:
 
 A Hugo boilerplate for creating a blog site backed with [NetlifyCMS](https://www.netlifycms.org) for content authoring.
 
-It has an asset pipeline using Gulp and Webpack for processing JavaScript with Babel, and CSS with PostCSS.
+This site template has an asset pipeline using Gulp and Webpack for processing JavaScript with Babel, and CSS with PostCSS.
