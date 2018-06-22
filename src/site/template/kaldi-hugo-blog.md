@@ -7,7 +7,7 @@ example: https://kaldi-template.netlify.com/
 tags:
   - hugo
   - blog
-  - NetlifyCMS
+  - netlifyCMS
   - postCSS
   - gulp
   - webpack

@@ -7,7 +7,7 @@ example: http://hyde.netlify.com/
 tags:
   - hyde
   - blog
-  - NetlifyCMS
+  - netlifyCMS
   - python
 ---
 

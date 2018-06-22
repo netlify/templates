@@ -7,7 +7,7 @@ example: http://casper-theme.netlify.com/
 tags:
   - hugo
   - blog
-  - NetlifyCMS
+  - netlifyCMS
   - postCSS
   - gulp
   - webpack
