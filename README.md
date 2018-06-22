@@ -64,6 +64,7 @@ Use these conventions in your new template description page:
 ---
 title: Descriptive title for display
 repo: URL of git repository for this template
+stack: (optional) List the stack arguments that Netlify will use with the DTN button. eg: cms
 preview: {filename for preview image}
 example: {URL of an example site}
 tags:

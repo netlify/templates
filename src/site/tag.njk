@@ -6,15 +6,12 @@ pagination:
 permalink: /tags/{{ tag }}/
 layout: layouts/base.njk
 ---
-
 <h2>/ <a href="/tags">tags</a> / {{ tag }} </h2>
-
-
 <ul class="listing">
-{% set postslist = collections[tag] %}
+{%- set postslist = collections[tag] -%}
 {% for post in postslist %}
   <li class="item-template">
-  {% set item = post %}
+  {%- set item = post -%}
   {% include "summary.njk" %}
   </li>
 {% endfor %}
