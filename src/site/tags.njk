@@ -1,10 +1,17 @@
 ---
 title: Tags
+pagination:
+  data: collections
+  size: 1000
+  alias: tags
+  filter:
+  - all
+  - templates
+  - nav
 layout: layouts/base.njk
 ---
-
 <ul class="listing">
-{% for tag in metadata.pageTags %}
+{% for tag in tags %}
   <h3><a href="/tags/{{ tag }}">{{ tag | capitalize }}</a></h3>
   {% for item in collections[tag] %}
     <li><a href="{{item.url}}">{{ item.data.title }}</a></li>

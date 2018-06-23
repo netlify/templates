@@ -2,6 +2,8 @@
 title: Contribute a template
 layout: layouts/base.njk
 pageClass: contribute
+tags:
+  - nav
 ---
 
 You want to contribute a template? We love you. Here's how to do it:
