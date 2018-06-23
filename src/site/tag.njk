@@ -11,7 +11,7 @@ pagination:
 permalink: /tags/{{ tag }}/
 layout: layouts/base.njk
 ---
-<h2>/ <a href="/tags">tags</a> / {{ tag }} </h2>
+<h2>/ <a href="/tags">Tags</a> / {{ tag | capitalize }} </h2>
 <ul class="listing">
 {%- set postslist = collections[tag] -%}
 {% for post in postslist %}

@@ -77,8 +77,13 @@ ul.listing {
   }
   li.item-template:first-of-type {
     border-top-style: none;
+    margin-top: -4em;
+    @include bp(mid) {
+      margin-top: 0em;
+    }
   }
 }
+
 
 .template-summary {
 
@@ -92,11 +97,9 @@ ul.listing {
   }
 
   div.left {
-    padding-top: 2em;
+    padding-top: 5.4em;
     padding-left: 0em;
     @include bp(mid) {
-      padding-top: 5.4em;
-      padding-left: 2em;
     }
   }
   div.right {
@@ -223,9 +226,12 @@ a.cta-image {
   &:visited {
     border-bottom-style: none;
     img.thumbnail {
-      width: 200px;
       -webkit-box-shadow: 0 1px 6px 0 rgba(14,30,37,.12);
       box-shadow: 0 1px 6px 0 rgba(14,30,37,.12);
+      width: 100%;
+      @include bp(narrow) {
+        width:200px;
+      }
     }
   }
   &:hover,
@@ -285,10 +291,15 @@ header {
 
   .navigation {
     list-style: none;
-    padding-bottom: 0.6em;
+    padding-bottom: 1.6em;
     margin-top: 1em;
     margin-bottom: 4em;
     border-bottom: solid 1px mix(#fff, #0e1e25, 20%);
+    text-align: center;
+    @include bp(narrow) {
+      text-align: left;
+      padding-bottom: 0.6em;
+    }
 
     li {
       display: inline;
@@ -313,17 +324,38 @@ header {
   }
 
   .logo {
-    display: inline-block;
-    background-size: 120px;
-    width: 120px;
-    height: 50px;
+    display: block;
+
+    a {
+      display: block;
+      background-size: 120px;
+      width: 120px;
+      height: 50px;
+      background-image: url('/images/full-logo-dark.svg');
+      background-position: 0 0;
+      background-repeat: no-repeat;
+      text-indent: -999px;
+      overflow: hidden;
+      vertical-align: middle;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 2em;
+      @include bp(narrow) {
+        display: inline-block;
+        margin-left: 0;
+        margin-bottom: 0;
+      }
+
+    }
     margin-right: 2em;
-    background-image: url('/images/full-logo-dark.svg');
-    background-position: 0 0;
-    background-repeat: no-repeat;
-    text-indent: -999px;
-    overflow: hidden;
-    vertical-align: middle;
+    margin-bottom: 2em;
+
+    @include bp(narrow) {
+      display: inline-block;
+      margin-bottom: 0;
+    }
+
   }
 
 
