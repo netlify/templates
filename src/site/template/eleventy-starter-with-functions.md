@@ -1,8 +1,8 @@
 ---
 title: Eleventy starter with serverless functions
 repo: https://github.com/philhawksworth/eleventyone
-preview: 11ty1-template.png
-example: https://11ty1.netlify.com
+preview: eleventyone-template.png
+example: https://eleventyone.netlify.com
 tags:
   - eleventy
   - blog
