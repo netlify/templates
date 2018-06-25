@@ -1,8 +1,9 @@
 {# Build the correct parameters for the DTN button #}
-{%- set dtn = "repository=" + item.repo  -%}
-{%- if stack -%}
-{%- set dtn = dtn + "&stack=" + item.stack -%}
+{%- set dtn = "repository=" + item.data.repo  -%}
+{%- if item.data.stack -%}
+{%- set dtn = dtn + "&stack=" + item.data.stack -%}
 {%- endif -%}
+
 <div class="template-summary">
   <div class="box">
     <div class="left">
