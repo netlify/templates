@@ -408,3 +408,23 @@ ul.nav {
 }
 
 
+
+
+.wave {
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  color: #fff;
+
+  svg {
+    fill: currentColor;
+    width: 102%;
+    margin-left: -1%;
+    height: auto;
+  }
+}
+
+.wave:last-child {
+  bottom: 0;
+  transform: translateY(50%);
+}
