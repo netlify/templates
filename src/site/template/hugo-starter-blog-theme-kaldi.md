@@ -1,5 +1,5 @@
 ---
-title: Kaldi - A Hugo starter blog
+title: Hugo starter blog theme - Kali
 repo: https://github.com/netlify-templates/kaldi-hugo-cms-template
 stack: cms
 preview: kaldi-hugo-template.jpg

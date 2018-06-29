@@ -1,5 +1,5 @@
 ---
-title: Cecil - A PHPoole starter blog (with Netlify CMS)
+title: PHPoole starter blog, Cecil (with Netlify CMS)
 repo: https://github.com/PHPoole/Cecil
 stack: cms
 preview: cecil-preview.png

@@ -1,5 +1,5 @@
 ---
-title: Casper - A Hugo starter blog
+title: Hugo starter blog theme - Casper
 repo: https://github.com/bdougie/casper-cms-template
 stack: cms
 preview: casper-cms-template.jpeg
