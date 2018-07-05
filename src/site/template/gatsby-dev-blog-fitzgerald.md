@@ -1,7 +1,7 @@
 ---
 title: Gatsby developer blog
 repo: https://github.com/RyanFitzgerald/devblog
-preview: gatsby-dev-blog.png
+preview: gatsby-dev-blog.jpg
 example: https://gatsby-devblog.netlify.com/
 tags:
   - react
