@@ -1,0 +1,14 @@
+
+{%- if preview == undefined %}
+{%- set preview = "homepage-preview.png" %}
+{%- endif -%}
+{%- if description == undefined %}
+{%- set description = "A free #JAMstack site starter template for to clone and deploy on @Netlify with a single click." %}
+{%- endif -%}
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:site" content="@netlify" />
+<meta name="twitter:creator" content="@netlify" />
+<meta property="og:url" content="https://templates.netlify.com{{ page.url }}" />
+<meta property="og:title" content="{{ title }}" />
+<meta property="og:description" content="{{ description }}" />
+<meta property="og:image" content="https://templates.netlify.com/images/previews/{{ preview | appendToName('-1000') }}" />

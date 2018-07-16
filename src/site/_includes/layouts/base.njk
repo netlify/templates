@@ -6,6 +6,8 @@
     <link rel="shortcut icon" href="/images/favicon.ico">
     <link rel="stylesheet" href="/css/main.css" />
     <title>{{ title }}</title>
+    <link rel="canonical" href="https://templates.netlify.com{{ page.url }}" />
+    {% include "opengraph.njk" %}
   </head>
   <body class="{{ pageClass }}" >
     <header>
