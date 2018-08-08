@@ -1,5 +1,5 @@
 ---
-title: Gatsby Starter: Minimal Blog
+title: Gatsby Starter Minimal Blog
 repo: https://github.com/LeKoArts/gatsby-starter-minimal-blog
 preview: gatsby-starter-minimal-blog.png
 example: https://minimal-blog.netlify.com/
