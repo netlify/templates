@@ -9,7 +9,6 @@ tags:
   - sass
   - blog
   - netlifyCMS
-  - serverless
 ---
 
 A simple Jekyll boilerplate for creating a fast, static website on Netlify with a continuous deployment workflow and [Netlify CMS](https://www.netlifycms.org) for content editing.
