@@ -1,9 +1,9 @@
 ---
-title: Jigsaw Netlify Starter
-repo: https://github.com/raniesantos/jigsaw-netlify-starter
+title: Artisan Static
+repo: https://github.com/raniesantos/artisan-static
 stack: cms
-preview: jigsaw-netlify-starter.png
-example: https://jigsaw-netlify-demo.netlify.com/
+preview: artisan-static.png
+example: https://artisan-static-demo.netlify.com/
 tags:
   - jigsaw
   - blog
