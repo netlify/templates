@@ -1,6 +1,6 @@
 ---
 title: Jekyll & Alembic theme starter
-repo: https://github.com/daviddarnes/alembic
+repo: https://github.com/daviddarnes/alembic-kit
 preview: jekyll-alembic-theme-starter.png
 example: https://alembic-kit-demo.netlify.com/
 tags:

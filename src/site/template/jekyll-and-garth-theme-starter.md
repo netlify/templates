@@ -1,6 +1,6 @@
 ---
 title: Jekyll & Garth theme starter
-repo: https://github.com/daviddarnes/garth
+repo: https://github.com/daviddarnes/garth-kit
 preview: jekyll-garth-theme-starter.png
 example: https://garth-kit-demo.netlify.com/
 tags:
