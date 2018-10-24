@@ -1,9 +1,9 @@
 ---
-title: Hugo starter blog theme - Kali
-repo: https://github.com/netlify-templates/kaldi-hugo-cms-template
+title: Hugo starter blog theme - Kaldi
+repo: https://github.com/netlify-templates/one-click-hugo-cms
 stack: cms
 preview: kaldi-hugo-template.jpg
-example: https://kaldi-template.netlify.com/
+example: https://one-click-hugo-cms.netlify.com/
 tags:
   - hugo
   - blog
@@ -14,6 +14,6 @@ tags:
   - babel
 ---
 
-A Hugo boilerplate for creating a blog site backed with [NetlifyCMS](https://www.netlifycms.org) for content authoring.
+A Hugo boilerplate for creating a blog site backed with [NetlifyCMS](https://www.netlifycms.org) for content authoring and [Netlify Identity](https://www.netlify.com/docs/identity/) for CMS user authentication.
 
 It has an asset pipeline using Gulp and Webpack for processing JavaScript with Babel, and CSS with PostCSS.
