@@ -7,8 +7,8 @@ example: https://cecil-demo.netlify.com
 tags:
   - Cecil
   - blog
-  - Hyde
-  - NetlifyCMS
+  - hyde
+  - netlifyCMS
   - PHP
 ---
 
