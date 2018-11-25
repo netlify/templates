@@ -8,7 +8,7 @@ tags:
   - Cecil
   - blog
   - hyde
-  - netlifyCMS
+  - netlifycms
   - PHP
 ---
 
