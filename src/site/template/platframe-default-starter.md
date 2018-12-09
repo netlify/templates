@@ -2,7 +2,7 @@
 title: Platframe default starter
 repo: https://github.com/platframe/platframe
 preview: platframe-default-starter.png
-example: https://landing-1.platframe.com/
+example: https://default.platframe.com/
 tags:
   - gulp
   - rollup
