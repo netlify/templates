@@ -1,9 +1,9 @@
 ---
 title: Netlify CMS template for Gridsome
 repo: https://github.com/suits-at/netlifycms-gridsome
-stack: (optional) List the stack arguments that Netlify will use with the DTN button. eg: cms
+stack: cms
 preview: netlifycms-gridsome.jpg
-example: https://netlifycms-gridsome.suits.at/
+example: https://netlifycms-gridsome.suits.at
 tags:
   - netlfiycms
   - gridsome
