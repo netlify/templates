@@ -1,11 +1,11 @@
 ---
-title: Ember Ghost Blog - Casper
-repo: https://github.com/stonecircle/ember-ghost-netlify-casper-template
-preview: ember-ghost-casper-template.png
-example: http://ember-ghost-casper-template.netlify.com/
+title: empress-blog - Casper
+repo: https://github.com/empress/empress-blog-netlify-casper-template
+preview: empress-blog-casper-template.png
+example: https://empress-blog.netlify.com/
 tags:
   - EmberJS
-  - ember-ghost
+  - empress-blog
   - Markdown
   - broccoli
   - JSON:API
