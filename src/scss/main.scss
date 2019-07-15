@@ -101,27 +101,40 @@ ul.listing {
     padding-left: 0em;
     @include bp(mid) {
     }
+
+    a.cta-title {
+      display: inline-block;
+      @include bp(mid) {
+        display: none;
+      }
+    }
   }
+
   div.right {
     padding-left: 0em;
     @include bp(mid) {
       padding-left: 2em;
     }
+
+    a.cta-title {
+      display: none;
+      @include bp(mid) {
+        display: inline;
+      }
+    }
   }
 
-   img.preview {
-     width: 100%;
-     margin-top: 0.5em;
-     margin-bottom: 1em;
-     -webkit-box-shadow: 0 1px 6px 0 rgba(14,30,37,.12);
-     box-shadow: 0 1px 6px 0 rgba(14,30,37,.12);
-   }
-
-  a.cta-title,
-  .template-title {
+  img.preview {
+    width: 100%;
+    margin-top: 0.5em;
     margin-bottom: 1em;
+    -webkit-box-shadow: 0 1px 6px 0 rgba(14,30,37,.12);
+    box-shadow: 0 1px 6px 0 rgba(14,30,37,.12);
   }
 
+  a.cta-title {
+    margin-bottom: 0.5em;
+  }
 }
 
 
