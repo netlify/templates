@@ -3,7 +3,7 @@ title: Cecil starter blog (with Netlify CMS)
 repo: https://github.com/Cecilapp/starter-blog
 stack: cms
 preview: cecil-preview.png
-example: https://cecil-demo.netlify.com
+example: https://demo.cecil.app
 tags:
   - Cecil
   - blog
