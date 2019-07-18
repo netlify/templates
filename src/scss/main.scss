@@ -102,10 +102,15 @@ ul.listing {
     @include bp(mid) {
     }
 
-    a.cta-title {
-      display: inline-block;
+    .cta-title-wrapper {
       @include bp(mid) {
+        margin-top: 0;
+        margin-bottom: 0;
         display: none;
+      }
+
+      a.cta-title {
+        display: inline-block;
       }
     }
   }
@@ -116,9 +121,18 @@ ul.listing {
       padding-left: 2em;
     }
 
-    a.cta-title {
+    .cta-title-wrapper {
+      margin-top: 0;
+      margin-bottom: 0;
       display: none;
+
       @include bp(mid) {
+        margin-top: 1em;
+        margin-bottom: 0.4em;
+        display: block;
+      }
+
+      a.cta-title {
         display: inline;
       }
     }
