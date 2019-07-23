@@ -14,6 +14,6 @@ tags:
   - babel
 ---
 
-A Hugo boilerplate for creating a small business site with a blog, backed with [Netlify CMS](https://www.netlifycms.org) for content authoring.
+A Hugo boilerplate for creating a blog site backed with [NetlifyCMS](https://www.netlifycms.org) for content authoring and [Netlify Identity](https://www.netlify.com/docs/identity/) for CMS user authentication.
 
 It has an asset pipeline using Gulp and Webpack for processing JavaScript with Babel, and CSS with PostCSS.
