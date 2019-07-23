@@ -1,6 +1,6 @@
 ---
 title: Gatsby + Netlify CMS Starter
-repo: https://github.com/AustinGreen/gatsby-starter-netlify-cms
+repo: https://github.com/netlify-templates/gatsby-starter-netlify-cms
 stack: cms
 preview: gastby-netlify-cms-starter.jpg
 example: https://gatsby-netlify-cms.netlify.com
