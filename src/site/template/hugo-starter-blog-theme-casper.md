@@ -1,7 +1,6 @@
 ---
 title: Hugo starter blog theme - Casper
 repo: https://github.com/bdougie/casper-cms-template
-stack: cms
 preview: casper-cms-template.jpeg
 example: http://casper-theme.netlify.com/
 tags:

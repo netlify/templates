@@ -1,9 +1,9 @@
 ---
-title: Hugo starter blog theme - Kaldi
+title: Hugo starter small business theme - Kaldi
 repo: https://github.com/netlify-templates/one-click-hugo-cms
 stack: cms
 preview: kaldi-hugo-template.jpg
-example: https://one-click-hugo-cms.netlify.com/
+example: https://master-template-one-click-hugo-cms.netlify.com/
 tags:
   - hugo
   - blog
