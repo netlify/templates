@@ -11,7 +11,7 @@
     "gulp-concat": "^2.6.1",
     "gulp-image-resize": "^0.13.1",
     "gulp-rename": "^1.2.3",
-    "gulp-sass": "^3.1.0",
+    "gulp-sass": "^4.0.2",
     "gulp-serve": "^1.4.0",
     "gulp-shell": "^0.7.1",
     "gulp-uglify": "^3.0.0",
