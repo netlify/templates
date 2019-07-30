@@ -9,7 +9,7 @@ tags:
   - react
   - blog
   - API
-  - Starter
+  - starter
 ---
 
 A starter template to build lightning fast websites with [Ghost](https://ghost.org) & [Gatsby](https://gatsbyjs.org).
