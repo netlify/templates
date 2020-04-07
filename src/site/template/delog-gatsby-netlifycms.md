@@ -2,7 +2,7 @@
 title: Delog
 repo: https://github.com/W3Layouts/gatsby-starter-delog
 stack: cms
-preview: delog-gatsby-netlifycms.png
+preview: delog.png
 example: https://delog-w3layouts.netlify.com/
 tags:
   - react
