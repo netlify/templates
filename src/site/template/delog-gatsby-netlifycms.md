@@ -1,5 +1,5 @@
 ---
-title: Delog
+title: Delog - GatsbyJS + Netlify CMS
 repo: https://github.com/W3Layouts/gatsby-starter-delog
 stack: cms
 preview: delog.png
