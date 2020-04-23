@@ -8,9 +8,9 @@ tags:
 
 You want to contribute a template? We love you. Here's how to do it:
 
-### 1. Add your project template to Github
+### 1. Add your project template to GitHub
 
-All of the templates on this site have a home on Github. You will need the URL of your template's repository in order to add it here.
+All of the templates on this site have a home on GitHub. You will need the URL of your template's repository in order to add it here.
 
 
 ### 2. Make sure that your project builds
@@ -22,7 +22,7 @@ Any of the other [templates](/) listed on this site will be a useful reference f
 
 ### 3. Add a page for your template
 
-Each template gets a page of its own on this site with a unique URL. For guidance on how to create that page, please follow the instructions in [this site's Readme on github](https://github.com/netlify/templates)
+Each template gets a page of its own on this site with a unique URL. For guidance on how to create that page, please follow the instructions in [this site's README on GitHub](https://github.com/netlify/templates)
 
 
 ### 4. Make a pull request

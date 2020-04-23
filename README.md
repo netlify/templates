@@ -6,7 +6,7 @@ boilerplates.
 
 ## Developing
 
-This site uses Gulp to compile its Sass and Javascript, and then [Eleventy](https://11ty.io) as a static site generator to build the pages.
+This site uses Gulp to compile its Sass and JavaScript, and then [Eleventy](https://11ty.io) as a static site generator to build the pages.
 
 The site is deployed onto Netlify via a continuous deployment process which just requires a push to the master git branch to publish new changes.
 
@@ -15,7 +15,7 @@ The site is deployed onto Netlify via a continuous deployment process which just
 
 In order to develop locally you will need:
 
-- git
+- Git
 - Node (v0.9.0 or later)
 - Yarn (v1.5.1 or later)
 - [Imagemagick](http://www.imagemagick.org/script/index.php)
@@ -43,14 +43,14 @@ yarn start
 
 ## Contributing templates
 
-All templates must build reside in their own git repository with suitable readme instructions for installing, developing and deploying.
+All templates must build reside in their own Git repository with suitable README instructions for installing, developing and deploying.
 
 Automated builds should include installation of all perquisites and successfully build on Netlify.
 
 To add contribute a template to this listing:
 
 - fork this repository
-- add your template as a new markdown file in the `src/site/template/` directory following the conventions described below
+- add your template as a new Markdown file in the `src/site/template/` directory following the conventions described below
 - add a screenshot as a preview image illustrating a view of this template to the `src/image/previews` directory
 - create a pull request to this repository
 
@@ -75,5 +75,3 @@ tags:
 
 {A description of the main features and technologies in this template}
 ```
-
-
