@@ -11,6 +11,8 @@ tags:
   - PHP
 ---
 
-An advanced starter template for building a static Jigsaw blog hosted on Netlify with analytics, comments, code highlighting, a contact form, a CMS, and more.
+A starter template for building a static Jigsaw blog hosted on Netlify.
 
-This template has extremely minimal CSS.
+Comes with code highlighting, share buttons, comments, analytics, a contact form, a CMS, and more.
+
+This template has extremely minimal HTML, CSS and JavaScript, which makes the code easy to build on top of or replace completely.
