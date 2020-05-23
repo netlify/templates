@@ -3,7 +3,7 @@ title: Artisan Static
 repo: https://github.com/raniesantos/artisan-static
 stack: cms
 preview: artisan-static.png
-example: https://artisan-static-demo.netlify.com/
+example: https://artisan-static-demo.netlify.app/
 tags:
   - jigsaw
   - blog
@@ -11,8 +11,8 @@ tags:
   - PHP
 ---
 
-A starter template for building a static Jigsaw blog hosted on Netlify.
+[Artisan Static](https://artisan-static-demo.netlify.app) is a starter template for building a static Jigsaw blog hosted on Netlify.
 
-This comes with code highlighting, share buttons, comments, analytics, a contact form, a CMS and more.
+This comes with code highlighting, share buttons, comments, analytics, an RSS feed, a contact form, a CMS and more.
 
-This template has extremely minimal HTML, CSS and JavaScript, which makes the code easy to build on top of or replace completely.
+The HTML, CSS and JavaScript in this template are extremely minimal, which makes the code easy to build on top of or replace completely.
