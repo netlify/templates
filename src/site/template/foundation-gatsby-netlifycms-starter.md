@@ -2,13 +2,13 @@
 title: Foundation - Gatsby and NetlifyCMS Starter
 repo: https://github.com/stackrole/gatsby-starter-foundation
 stack: cms
-preview: {filename for preview image}
+preview: foundation-gatsby-netlifycms-starter.png
 example: https://foundation.stackrole.com/
 tags:
   - React
   - Gatsby
   - NetlifyCMS
-  - Netlfiy Forms
+  - Netlify Forms
   - Blog
   - Starter
 ---
@@ -27,4 +27,5 @@ A starter to launch your blazing fast personal website and a blog, Built with Ga
 - Beautiful XML Sitemaps
 - Netlify Contact Form, Works right out of the box after deployment.
 - Invite collaborators into Netlify CMS, without giving access to your Github account via Git Gateway
+- For instructions, take a look at readme.md at Github repo.
 - Gatsby Incremental Builds with Netlify.
