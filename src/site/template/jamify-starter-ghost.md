@@ -1,5 +1,5 @@
 ---
-title: Gatsby starter for creating blogs from headless Ghost CMS
+title: Jamify starter for publishing blogs with Gatsby & Ghost
 repo: https://github.com/styxlab/gatsby-starter-try-ghost
 preview: jamify-starter-ghost.png
 example: https://demo.jamify.org/
