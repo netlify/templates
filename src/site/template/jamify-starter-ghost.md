@@ -13,4 +13,4 @@ tags:
   - starter
 ---
 
-Publish flaring fast blogs with [Gatsby](https://gatsbyjs.org) and Ghost [Ghost](https://ghost.org).
+Publish flaring fast blogs with [Gatsby](https://gatsbyjs.org) and [Ghost](https://ghost.org).
