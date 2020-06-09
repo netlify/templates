@@ -1,5 +1,5 @@
 ---
-title: Jamify starter for publishing blogs with Gatsby & Ghost
+title: Jamify Starter for publishing Blogs with Gatsby & Ghost
 repo: https://github.com/styxlab/gatsby-starter-try-ghost
 preview: jamify-starter-ghost.png
 example: https://demo.jamify.org/
