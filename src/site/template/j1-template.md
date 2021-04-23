@@ -1,8 +1,8 @@
 ---
 title: Jekyll One Template - Create powerful modern static websites
-repo: https://github.com/jekyll-one-org/j1-template-starter
+repo: https://github.com/jekyll-one/j1-template-starter
 preview: starter-screenshot.jpg
-example: https://j1-preview.netlify.app/
+example: https://j1-template-starter.netlify.app/
 tags:
   - Jekyll
   - Bootstrap
@@ -17,7 +17,7 @@ tags:
   - Icon Font Support
 ---
 
-![Screenshot](https://jekyll.one/starter-screenshot.jpg)
+![Screenshot](https://github.com/jekyll-one/j1-template-starter/raw/main/home-screenshot.jpg "J1 Starter Web")
 
 Jekyll One Template - Create powerful modern static websites.
 
@@ -55,7 +55,7 @@ No license issues for private or professional use.
 * Themeable source code highlighting (Rouge)
 * Desktop and Mobile Web and Navigation ready
 * Fully configurable
-* 100/100 Google Lighthouse scores
+* 100/100 Google Lighthouse scores (at e.g. Netlify|Github)
 
 ### Modules and Extensions
 
