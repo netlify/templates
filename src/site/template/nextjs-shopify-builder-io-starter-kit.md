@@ -18,10 +18,9 @@ Demo live at: [https://builder-io-shopify.netlify.app/](https://builder-io-shopi
 
 ## Goals and Features
 
-- Ultra high performance
-- SEO optimized
-- Localization
+- Blazingly-fast, high performant ecommerce sites
+- SEO friendly with built-in incremental static regeneration
+- Hyper-personalization (localization, A/B testing, and more) that does not impact performance
 - Themable
-- Personalizable (internationalization, a/b testing, etc)
-- Builder.io Visual CMS integrated
-- Connect to Shopify data through Builder's high speed data layer
+- Builder.io headless CMS with visual editor integrated
+- Connect to Shopify data through Builder.io's high speed data layer
