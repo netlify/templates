@@ -1,9 +1,9 @@
 name: Dependency License Scanning
 
 on:
-  push
-#     branches:
-#       - master
+  push:
+    branches:
+      - master
 
 defaults:
   run:
