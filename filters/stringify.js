@@ -9,7 +9,6 @@
  */
 
 module.exports = function(obj) {
-  console.log('object :', obj);
   return JSON.stringify(obj);
 }
 

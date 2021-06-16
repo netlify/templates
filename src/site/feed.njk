@@ -1,0 +1,16 @@
+---
+permalink: /feed.json
+---
+[
+{%- for item in collections.templates -%}
+{%- set data = item.data  -%}
+{
+  "title": "{{ data.title }}",
+  "repo": "{{ data.repo }}",
+  "stack": "{{ data.stack }}",
+  "preview": "https://templates.netlify.com/images/previews/{{ data.preview | appendToName('-400') }}",
+  "example": "{{ data.example }}",
+  "tags": {{ data.tags | stringify | safe }}
+}{{ '' if loop.last else ',' }}
+{%- endfor -%}
+]
