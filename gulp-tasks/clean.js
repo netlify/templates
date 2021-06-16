@@ -4,6 +4,6 @@ var clean   = require('gulp-clean');
 
 // cleanup the build output
 gulp.task('clean-build', function () {
-  return gulp.src(project.buildDest, {read: false})
+  return gulp.src(`${project.buildDest}/*`, {read: false})
     .pipe(clean());
 });
