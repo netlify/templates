@@ -18,7 +18,8 @@ In order to develop locally you will need:
 - Git
 - Node (v0.9.0 or later)
 - Yarn (v1.5.1 or later)
-- [Imagemagick](http://www.imagemagick.org/script/index.php)
+- [ImageMagick](http://www.imagemagick.org/script/index.php)
+- [GraphicsMagick](http://www.graphicsmagick.org/README.html)
 
 
 ### Installing dependencies and developing locally
@@ -32,6 +33,7 @@ cd netlify.templates.com
 
 # install dependencies
 yarn
+brew bundle
 
 # start local development server and watch for changes
 # with a local server on http://127.0.0.1:8008
