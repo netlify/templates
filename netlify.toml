@@ -24,23 +24,23 @@
 
 # tag page URLs that moved
 [[redirects]]
-  from = "/tags/dark mode"
+  from = "/tags/dark%20mode"
   to = "/tags/dark-mode"
   status = 301
 [[redirects]]
-  from = "/tags/netlify cms"
+  from = "/tags/netlify%20cms"
   to = "/tags/netlifycms"
   status = 301
 [[redirects]]
-  from = "/tags/netlify form"
+  from = "/tags/netlify%20form"
   to = "/tags/netlify-forms"
   status = 301
 [[redirects]]
-  from = "/tags/netlify forms"
+  from = "/tags/netlify%20forms"
   to = "/tags/netlify-forms"
   status = 301
 [[redirects]]
-  from = "/tags/online store"
+  from = "/tags/online%20store"
   to = "/tags/online-store"
   status = 301
 [[redirects]]
