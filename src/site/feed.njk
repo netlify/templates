@@ -10,7 +10,8 @@ permalink: /feed.json
   "stack": "{{ data.stack }}",
   "preview": "https://templates.netlify.com/images/previews/{{ data.preview | appendToName('-400') }}",
   "example": "{{ data.example }}",
-  "tags": {{ data.tags | stringify | safe }}
+  "tags": {{ data.tags | stringify | safe }},
+  "stars": "{{ data.stars }}"
 }{{ '' if loop.last else ',' }}
 {%- endfor -%}
 ]
