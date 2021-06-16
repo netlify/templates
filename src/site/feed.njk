@@ -2,7 +2,7 @@
 permalink: /feed.json
 ---
 [
-{%- for item in collections.templates -%}
+{%- for item in collections.templates | sort(true, false, 'data.stars') -%}
 {%- set data = item.data  -%}
 {
   "title": "{{ data.title }}",
@@ -11,7 +11,7 @@ permalink: /feed.json
   "preview": "https://templates.netlify.com/images/previews/{{ data.preview | appendToName('-400') }}",
   "example": "{{ data.example }}",
   "tags": {{ data.tags | stringify | safe }},
-  "stars": "{{ data.stars }}"
+  "stars": {{ data.stars or 0 }}
 }{{ '' if loop.last else ',' }}
 {%- endfor -%}
 ]
