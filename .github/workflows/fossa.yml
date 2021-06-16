@@ -1,13 +1,13 @@
 name: Dependency License Scanning
 
-# on:
-#   push:
+on:
+  push
 #     branches:
 #       - master
 
-# defaults:
-#   run:
-#     shell: bash
+defaults:
+  run:
+    shell: bash
 
 jobs:
   fossa:
