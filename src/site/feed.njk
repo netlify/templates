@@ -2,15 +2,16 @@
 permalink: /feed.json
 ---
 [
-{%- for item in collections.templates -%}
+{%- for item in collections.templates | sort(true, false, 'data.stars') -%}
 {%- set data = item.data  -%}
 {
-  "title": "{{ data.title }}",
-  "repo": "{{ data.repo }}",
+  "title": "{{ data.title | safe }}",
+  "repo": "{{ data.repo | url }}",
   "stack": "{{ data.stack }}",
-  "preview": "https://templates.netlify.com/images/previews/{{ data.preview | appendToName('-400') }}",
-  "example": "{{ data.example }}",
-  "tags": {{ data.tags | stringify | safe }}
+  "preview": "https://templates.netlify.com/images/previews/{{ data.preview | appendToName('-1000') }}",
+  "example": "{{ data.example | url }}",
+  "tags": {{ data.tags | stringify | safe }},
+  "stars": {{ data.stars or 0 }}
 }{{ '' if loop.last else ',' }}
 {%- endfor -%}
 ]

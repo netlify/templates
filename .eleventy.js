@@ -1,4 +1,7 @@
-module.exports = function(config) {
+const fetch = require("node-fetch");
+const parseGitUrl = require("git-url-parse");
+
+module.exports = function (config) {
 
   // Add filters to Nunjucks
   config.addFilter("squash", require("./filters/squash.js") );
@@ -6,8 +9,22 @@ module.exports = function(config) {
   config.addFilter("stringify", require("./filters/stringify.js") );
 
   // Group posts and links into collections without leaning on tags
-  config.addCollection("templates", function(collection) {
-    return collection.getFilteredByGlob("src/site/template/*.md");
+  config.addCollection("templates", async function (collection) {
+    const templates = collection.getFilteredByGlob("src/site/template/*.md");
+
+    return await Promise.all(templates.map(async (template) => {
+      const { full_name } = parseGitUrl(template.data.repo);
+
+      template.data.stars = await fetch(`https://api.github.com/repos/${full_name}`, {
+        headers: {
+          Authorization: `token ${process.env.GITHUB_TOKEN}`
+        }
+      })
+        .then(res => res.json())
+        .then(json => json.stargazers_count);
+
+      return template;
+    }));
   });
 
   return {
