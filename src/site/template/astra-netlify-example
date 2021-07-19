@@ -1,0 +1,16 @@
+---
+title: Astra To-Do App
+repo: https://github.com/datastaxdevs/netlify-astra-example
+preview: artisan-static.png
+example: https://youthful-shirley-77ac42.netlify.app/
+tags:
+  - react
+  - nodeJS
+  - Jamstack
+---
+
+The [Astra To-Do App](https://youthful-shirley-77ac42.netlify.app/) is an example application using Astra (Cassandra as a Service) and Netlify.
+
+This example is fully functional and walks you through the steps needed to get the application up and running quickly.
+
+It can be used as the basis for many other applications, as the API interactions for GraphQL, document and REST APIs are demonstrated.
