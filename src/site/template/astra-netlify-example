@@ -1,7 +1,7 @@
 ---
 title: Astra To-Do App
 repo: https://github.com/datastaxdevs/netlify-astra-example
-preview: artisan-static.png
+preview: astra-todo.png
 example: https://youthful-shirley-77ac42.netlify.app/
 tags:
   - react
