@@ -8,8 +8,10 @@ pagination:
   - template
   - nav
   - things
-permalink: /tags/{{ tag }}/
+permalink: /tags/{{ tag | slug }}/
 layout: layouts/base.njk
+eleventyComputed:
+  metaTitle: '{{ tag | capitalize }}'
 ---
 <h2>/ <a href="/tags">Tags</a> / {{ tag | capitalize }} </h2>
 <ul class="listing">

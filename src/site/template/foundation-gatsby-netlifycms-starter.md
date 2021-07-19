@@ -5,12 +5,12 @@ stack: cms
 preview: foundation-gatsby-netlifycms-starter.png
 example: https://foundation.stackrole.com/
 tags:
-  - React
-  - Gatsby
-  - NetlifyCMS
+  - react
+  - gatsby
+  - netlifyCMS
   - Netlify Forms
-  - Blog
-  - Starter
+  - blog
+  - starter
 ---
 
 A starter to launch your blazing fast personal website and a blog, Built with Gatsby and Netlify CMS. Made with ❤ by Stackrole

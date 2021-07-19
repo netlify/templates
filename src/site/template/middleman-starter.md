@@ -7,7 +7,7 @@ example: https://middleman-netlify-cms.netlify.com/
 tags:
   - middleman
   - ruby
-  - netlifycms
+  - netlifyCMS
   - blog
   - sass
   - slim

@@ -8,7 +8,7 @@ tags:
   - eleventy
   - blog
   - netlifyCMS
-  - netlifyForms
+  - Netlify Forms
 ---
 A template for building a simple blog website with the [Eleventy](https://www.11ty.io) static site generator and deploying it to Netlify. Includes [Netlify CMS](https://www.netlifycms.org) for content editing.
 
