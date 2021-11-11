@@ -9,6 +9,7 @@ tags:
   - authentication
   - prisma
   - tailwindcss 
+  - typescript
 ---
 
 This starter app combines the powers of [PlanetScale](https://planetscale.com)’s serverless databases with Prisma’s next-gen ORM and NextAuth.js for authentication to create a Next.js starter app that can scale with you. In this starter app, any users that sign up or log in are automatically stored in your PlanetScale database. There is also a built-in admin page, where you can see your users table without having to write database queries. 
