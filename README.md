@@ -47,9 +47,9 @@ yarn start
 
 All templates must build reside in their own Git repository with suitable README instructions for installing, developing and deploying.
 
-Automated builds should include installation of all perquisites and successfully build on Netlify.
+Automated builds should include installation of all prerequisites and successfully build on Netlify.
 
-To add contribute a template to this listing:
+To add a template to this listing:
 
 - fork this repository
 - add your template as a new Markdown file in the `src/site/template/` directory following the conventions described below
