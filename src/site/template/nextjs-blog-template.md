@@ -1,7 +1,7 @@
 ---
 title: Bejamas X Netlify - Next.js Blog Starter
 repo: https://github.com/netlify-templates/nextjs-blog-theme
-preview: nextjs-blog-theme
+preview: nextjs-blog-theme.png
 example: https://bejamas-nextjs-blog.netlify.app/
 tags:
   - nextjs
