@@ -1,7 +1,6 @@
 ---
 title: Drupal + Tome
 repo: https://github.com/drupal-tome/netlify-template
-stack: cms
 preview: tome-netlify-preview.png
 example: https://bookish-drupal.netlify.app
 tags:
