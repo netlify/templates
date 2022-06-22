@@ -20,7 +20,7 @@
       </h3>
       <ul class="meta tags">
         {%- for tag in item.data.tags -%}
-        <li class="tag"><a href="/tags/{{tag}}">{{tag}}</a></li>
+        <li class="tag"><a href="/tags/{{ tag | slug }}">{{ tag | capitalize }}</a></li>
         {% endfor -%}
       </ul>
       <div class="dtn">

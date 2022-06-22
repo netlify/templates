@@ -21,3 +21,29 @@
   from = "/templates"
   to = "/"
   status = 301
+
+# tag page URLs that moved
+[[redirects]]
+  from = "/tags/dark%20mode"
+  to = "/tags/dark-mode"
+  status = 301
+[[redirects]]
+  from = "/tags/netlify%20cms"
+  to = "/tags/netlifycms"
+  status = 301
+[[redirects]]
+  from = "/tags/netlify%20form"
+  to = "/tags/netlify-forms"
+  status = 301
+[[redirects]]
+  from = "/tags/netlify%20forms"
+  to = "/tags/netlify-forms"
+  status = 301
+[[redirects]]
+  from = "/tags/online%20store"
+  to = "/tags/online-store"
+  status = 301
+[[redirects]]
+  from = "/tags/vuejs"
+  to = "/tags/vue"
+  status = 301

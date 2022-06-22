@@ -7,8 +7,8 @@ example: https://bluise.netlify.com
 tags:
   - nuxt
   - tailwindcss
-  - netlify form
-  - netlify cms
+  - Netlify Forms
+  - netlifyCMS
   - blog
 ---
 

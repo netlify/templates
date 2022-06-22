@@ -5,9 +5,9 @@ stack: cms
 preview: vue-cosmicjs-blog.png
 example: https://simple-vue-blog.cosmicapp.co/
 tags:
-  - CosmicJS
-  - Vuejs
-  - Blog
+  - cosmicJS
+  - vue
+  - blog
 ---
 
 A simple Vue.js template for creating a fast, beautiful blog on Netlify powerd by the [Cosmic JS Headless CMS](https://cosmicjs.com) for content editing.

@@ -11,7 +11,7 @@ tags:
   - search
   - sendgrid
   - serverless
-  - vuejs
+  - vue
 ---
 
 Bael is a free template that gives you an easy way to start a blog that uses modern technologies like static-site Jamstack architecture, CSS grid layout, responsive design, a serverless function that handles emails newsletter signup with Sendgrid, and fuzzy search — all wrapped up in a brutalist aesthetic.
