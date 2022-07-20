@@ -1,8 +1,8 @@
 ---
 title: Gatsby Contentful Starter blog
-repo: https://github.com/contentful-userland/gatsby-contentful-starter
+repo: https://github.com/contentful/starter-gatsby-blog
 preview: gatsby-starter-contentful.png
-example: https://contentful-userland.github.io/gatsby-contentful-starter/
+example: https://contentful.github.io/starter-gatsby-blog/
 tags:
   - react
   - gatsby
