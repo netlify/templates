@@ -77,3 +77,6 @@ tags:
 
 {A description of the main features and technologies in this template}
 ```
+
+For the moment, the case of these tags matters. :(
+  
