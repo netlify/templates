@@ -6,7 +6,7 @@ example: https://contentful.github.io/starter-gatsby-blog/
 tags:
   - react
   - gatsby
-  - blog
+  - Blog
   - contentful
 ---
 

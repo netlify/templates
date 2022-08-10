@@ -6,7 +6,7 @@ preview: cecil-preview.png
 example: https://demo.cecil.app
 tags:
   - Cecil
-  - blog
+  - Blog
   - hyde
   - netlifyCMS
   - PHP

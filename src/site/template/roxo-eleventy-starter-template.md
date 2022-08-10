@@ -6,7 +6,7 @@ example: https://roxo-eleventy.staticmania.com/
 tags:
   - portfolio
   - digital agency
-  - markdown
+  - Markdown
   - eleventy
 ---
 

@@ -6,7 +6,7 @@ preview: artisan-static.png
 example: https://artisanstatic.netlify.app/
 tags:
   - jigsaw
-  - blog
+  - Blog
   - netlifyCMS
   - PHP
 ---

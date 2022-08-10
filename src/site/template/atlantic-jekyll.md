@@ -5,7 +5,7 @@ preview: atlantic-jekyll.png
 example: https://jekyll-atlantic.netlify.app/
 tags:
   - Jekyll
-  - Tailwindcss
+  - TailwindCSS
   - Blog
   - Theme
 ---

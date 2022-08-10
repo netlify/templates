@@ -6,7 +6,7 @@ example: https://gatsby-devblog.netlify.com/
 tags:
   - react
   - gatsby
-  - blog
+  - Blog
   - graphQL
 ---
 

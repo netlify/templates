@@ -8,7 +8,7 @@ tags:
   - database
   - authentication
   - prisma
-  - tailwindcss 
+  - TailwindCSS
   - typescript
 ---
 

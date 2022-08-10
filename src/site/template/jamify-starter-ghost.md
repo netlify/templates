@@ -8,7 +8,7 @@ tags:
   - gatsby
   - ghost
   - react
-  - blog
+  - Blog
   - API
   - starter
 ---

@@ -5,8 +5,8 @@ preview: eleventy-starter-boilerplate.png
 example: https://creativedesignsguru.com/demo/Eleventy-Starter-Boilerplate/eleventy-starter-boilerplate-presentation/
 tags:
   - eleventy
-  - tailwindcss
-  - blog
+  - TailwindCSS
+  - Blog
   - starter
   - webpack
   - postCSS

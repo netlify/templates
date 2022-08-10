@@ -4,8 +4,8 @@ repo: https://github.com/bdougie/casper-cms-template
 preview: casper-cms-template.jpeg
 example: http://casper-theme.netlify.com/
 tags:
-  - hugo
-  - blog
+  - Hugo
+  - Blog
   - netlifyCMS
   - postCSS
   - gulp

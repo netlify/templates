@@ -6,7 +6,7 @@ preview: eleventy-netlify-boilerplate.jpg
 example: https://eleventy-netlify-boilerplate.netlify.com
 tags:
   - eleventy
-  - blog
+  - Blog
   - netlifyCMS
   - Netlify Forms
 ---

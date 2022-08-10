@@ -5,7 +5,7 @@ preview: eleventyone-template.png
 example: https://eleventyone.netlify.com
 tags:
   - eleventy
-  - blog
+  - Blog
   - gulp
   - sass
   - serverless

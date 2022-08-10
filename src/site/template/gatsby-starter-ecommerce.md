@@ -6,7 +6,7 @@ example: https://parmsang.github.io/gatsby-starter-ecommerce/
 tags:
   - react
   - gatsby
-  - blog
+  - Blog
   - stripe
   - ecommerce
   - motlin

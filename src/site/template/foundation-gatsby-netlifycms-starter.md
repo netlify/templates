@@ -9,7 +9,7 @@ tags:
   - gatsby
   - netlifyCMS
   - Netlify Forms
-  - blog
+  - Blog
   - starter
 ---
 

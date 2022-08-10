@@ -7,7 +7,7 @@ example: https://gatsby-netlify-cms.netlify.com
 tags:
   - gatsby
   - react
-  - blog
+  - Blog
   - netlifyCMS
 ---
 

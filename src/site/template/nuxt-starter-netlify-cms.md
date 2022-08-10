@@ -7,7 +7,7 @@ example: https://nuxt-netlify-cms-starter.netlify.com
 tags:
   - nuxt
   - netlifyCMS
-  - blog
+  - Blog
 ---
 
 A super unopinionated starter project, built off the `create-nuxt-app` CLI tool, and leveraging Netlify CMS to generate content in the Nuxt API from flat files.

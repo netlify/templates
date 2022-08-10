@@ -5,11 +5,11 @@ preview: dendron-netlify.png
 example: https://link.dendron.so/netlify-demo
 tags:
   - nextjs
-  - blog
+  - Blog
   - starter
   - typescript
   - dendron
-  - markdown
+  - Markdown
 ---
 
 ## Dendron Workspace Template for Netlify Publishing

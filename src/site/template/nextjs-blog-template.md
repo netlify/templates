@@ -5,10 +5,10 @@ preview: nextjs-blog-theme.png
 example: https://bejamas-nextjs-blog.netlify.app/
 tags:
   - nextjs
-  - tailwindcss
+  - TailwindCSS
   - react
   - mdx
-  - blog
+  - Blog
 ---
 
 A customizable blog starter using:

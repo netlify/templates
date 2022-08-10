@@ -8,7 +8,7 @@ tags:
   - gridsome
   - documentation
   - docs
-  - theme
+  - Theme
   - dark mode
 ---
 

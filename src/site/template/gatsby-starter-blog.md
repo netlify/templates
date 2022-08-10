@@ -6,7 +6,7 @@ example: http://gatsbyjs.github.io/gatsby-starter-blog
 tags:
   - react
   - gatsby
-  - blog
+  - Blog
   - graphQL
 ---
 

@@ -5,7 +5,7 @@ preview: hexo-netlify-cms.png
 example: https://hexo-material-cms.netlify.com/
 tags:
   - Hexo
-  - blog
+  - Blog
   - netlifyCMS
   - redirects
   - material

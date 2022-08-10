@@ -4,7 +4,7 @@ repo: https://github.com/growdigital/indiego
 preview: indiego.png
 example: https://www.indiego.org.uk/
 tags:
-  - hugo
+  - Hugo
   - social
   - modular
   - BEM

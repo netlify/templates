@@ -6,10 +6,10 @@ preview: bluise.png
 example: https://bluise.netlify.com
 tags:
   - nuxt
-  - tailwindcss
+  - TailwindCSS
   - Netlify Forms
   - netlifyCMS
-  - blog
+  - Blog
 ---
 
 Start with Typescript, TailwindCSS, Nuxt, Netlify Forms & Netlify CMS, includes pagination, seo & pwa ready.

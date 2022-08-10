@@ -5,10 +5,10 @@ preview: nextjs-starter.png
 example: https://creativedesignsguru.com/demo/Nextjs-Blog-Boilerplate/
 tags:
   - nextjs
-  - tailwindcss
+  - TailwindCSS
   - react
   - typescript
-  - blog
+  - Blog
   - starter
   - webpack
   - postCSS

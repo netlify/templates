@@ -6,7 +6,7 @@ preview: bael-template-post.png
 example: https://bael-theme.jake101.com/
 tags:
   - nuxt
-  - blog
+  - Blog
   - netlifyCMS
   - search
   - sendgrid

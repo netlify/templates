@@ -8,7 +8,7 @@ tags:
   - middleman
   - ruby
   - netlifyCMS
-  - blog
+  - Blog
   - sass
   - slim
 ---

@@ -6,7 +6,7 @@ example: https://eleventy.ghost.org/
 tags:
   - ghost
   - eleventy
-  - blog
+  - Blog
   - API
   - starter
 ---

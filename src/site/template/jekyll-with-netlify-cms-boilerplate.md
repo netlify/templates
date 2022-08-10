@@ -5,9 +5,9 @@ stack: cms
 preview: jekyll-netlify-boilerplate.jpg
 example: https://jekyll-netlify-boilerplate.netlify.com
 tags:
-  - jekyll
+  - Jekyll
   - sass
-  - blog
+  - Blog
   - netlifyCMS
 ---
 

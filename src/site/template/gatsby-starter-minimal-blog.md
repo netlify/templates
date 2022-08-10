@@ -6,7 +6,7 @@ example: https://minimal-blog.netlify.com/
 tags:
   - react
   - gatsby
-  - blog
+  - Blog
   - styled-components
 ---
 

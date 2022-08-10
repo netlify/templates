@@ -4,8 +4,8 @@ repo: https://github.com/forestryio/novela-hugo-starter
 preview: hugo-novela-forestry.jpg
 example: https://hugo-novela-forestry.netlify.app
 tags:
-  - hugo
-  - blog
+  - Hugo
+  - Blog
   - forestry
 ---
 

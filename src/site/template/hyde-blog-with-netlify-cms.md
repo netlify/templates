@@ -6,7 +6,7 @@ preview: hyde-cms-template.png
 example: http://hyde.netlify.com/
 tags:
   - hyde
-  - blog
+  - Blog
   - netlifyCMS
   - python
 ---

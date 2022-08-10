@@ -5,8 +5,8 @@ stack: cms
 preview: kaldi-hugo-template.jpg
 example: https://master-template-one-click-hugo-cms.netlify.com/
 tags:
-  - hugo
-  - blog
+  - Hugo
+  - Blog
   - netlifyCMS
   - postCSS
   - gulp

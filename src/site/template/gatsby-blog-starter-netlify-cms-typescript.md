@@ -7,7 +7,7 @@ example: https://static-blog.netlify.app/
 tags:
   - gatsby
   - react
-  - blog
+  - Blog
   - netlifyCMS
   - typescript
   - seo
