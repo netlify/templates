@@ -14,7 +14,7 @@ tags:
 
 ## Dendron Workspace Template for Netlify Publishing
 
-<img src="https://org-dendron-public-assets.s3.amazonaws.com/images/blog-header-dendron-netlify.png" alt="Logos for GitHub, Netlify, and Dendron" style="width:fit-content;"/>
+<img src="https://org-dendron-public-assets.s3.amazonaws.com/images/blog-header-dendron-netlify.png" alt="Logos for GitHub, Netlify, and Dendron" style="width:100%;"/>
 
 🌱 Publish a Dendron Workspace to Netlify! ⚡️ Made with Dendron, which uses `Next.js` to build a static website out of your notes, documentation, and/or blog content written with an extended Markdown.
 
