@@ -1,6 +1,6 @@
 var project = require('./_project.js');
 var gulp    = require('gulp');
-var sass    = require("gulp-sass");
+var sass    = require("gulp-sass")(require('sass'));
 
 
 /*
