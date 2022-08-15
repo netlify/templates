@@ -270,16 +270,17 @@ a.cta-image {
   }
 }
 
-#redirect-warning {
+.redirect-warning {
   background-color: rgb(254 252 232);
   border-radius: 10px;
   padding: 0.25rem 1rem;
   color: #111;
-  
-  & > a {
-    color: #111;
+
+  & a:visited, & a:link, & a:active {
+    color: #111 !important;
   }
 }
+
 
 /*
   Layout

@@ -2,8 +2,8 @@
   command = "yarn run build"
   publish = "dist"
 
-[build.environment]
-  NODE_VERSION = "8.9.0"
+[dev]
+  targetPort = 8008
 
 # arrange tag listings on one page,
 # but look after people who hack the URL
