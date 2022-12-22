@@ -5,17 +5,13 @@ boilerplates.
 
 ## Important Notice
 
-:warning: Please be aware that [templates.netlify.com](https://templates.netlify.com/) pages will be redirected to relevant GitHub repos, [jamstack.org/](https://www.jamstack.org/), or [www.netlify.com](https://www.netlify.com/) pages. If you are interested in adding a template to [netlify.com/integrations/templates/](https://www.netlify.com/integrations/templates/), please reach out to templates@netlify.com
-
-
-
+:warning: [templates.netlify.com](https://templates.netlify.com/) is now being redirected to relevant GitHub repos, [jamstack.org/](https://jamstack.org/), or [www.netlify.com](https://www.netlify.com/) pages. If you are interested in adding a template to [netlify.com/integrations/templates/](https://www.netlify.com/integrations/templates/), please reach out to templates@netlify.com
 
 ## Developing
 
 This site uses Gulp to compile its Sass and JavaScript, and then [Eleventy](https://11ty.io) as a static site generator to build the pages.
 
 The site is deployed onto Netlify via a continuous deployment process which just requires a push to the master git branch to publish new changes.
-
 
 ### Prerequisites
 
@@ -26,7 +22,6 @@ In order to develop locally you will need:
 - Yarn (v1.5.1 or later)
 - [ImageMagick](http://www.imagemagick.org/script/index.php)
 - [GraphicsMagick](http://www.graphicsmagick.org/README.html)
-
 
 ### Installing dependencies and developing locally
 
@@ -46,8 +41,6 @@ brew bundle
 yarn start
 
 ```
-
-
 
 ## Contributing templates
 
@@ -85,4 +78,3 @@ tags:
 ```
 
 For the moment, the case of these tags matters. :(
-  
