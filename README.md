@@ -3,6 +3,12 @@
 This is a board with templates for static site generators and
 boilerplates.
 
+## Important Notice
+
+:warning: Please be aware that templates listed on this page [(netlify.com/integrations/)](https://www.netlify.com/integrations/) will be redirected to relevant GitHub repos, [jamstack.org/](https://www.jamstack.org/), or [netlify.com/integrations](https://www.netlify.com/integrations/) pages. If you are interested in adding a template to [netlify.com/integrations/templates/](https://www.netlify.com/integrations/templates/), please reach out to templates@netlify.com
+
+
+
 
 ## Developing
 
