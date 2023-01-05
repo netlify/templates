@@ -5,7 +5,7 @@ boilerplates.
 
 ## Important Notice
 
-:warning: the [templates.netlify.com](https://templates.netlify.com/) repo is now archived and currently being redirected to relevant GitHub repos, [jamstack.org/](https://jamstack.org/), or [www.netlify.com](https://www.netlify.com/) pages. If you are interested in adding a template to [netlify.com/integrations/templates/](https://www.netlify.com/integrations/templates/), please reach out to templates@netlify.com
+:warning: The [templates.netlify.com](https://templates.netlify.com/) repo is now archived, and the site is currently being redirected to relevant GitHub repos, [jamstack.org/](https://jamstack.org/), or [www.netlify.com](https://www.netlify.com/) pages. If you are interested in adding a template to [netlify.com/integrations/templates/](https://www.netlify.com/integrations/templates/), please reach out to templates@netlify.com
 
 ## Developing
 
